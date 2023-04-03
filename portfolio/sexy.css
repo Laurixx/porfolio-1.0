@@ -1,0 +1,91 @@
+/* color1 #020d24 color2 #d8e4fd
+accent color #eed311
+font-family: 'Urbanist', sans-serif; */
+body{
+    font-family: 'Urbanist', sans-serif;
+    background: #010613;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    margin-bottom: 50px;
+}
+h1,
+h2{
+    font-weight: 300;
+    margin-top: 0;
+    border-bottom: 1px solid #d8e4fd;
+    padding: 20px 0;
+}
+.about-me h2{
+    border-left: 1px solid #26292e;
+    border-right: 1px solid #26292e;
+}
+h3{
+    margin: 25px 0;
+    font-weight: 100;
+}
+p{
+    font-weight: 500;
+}
+img{
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 0 0 7px #ffffff ;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.about-me{
+    width: 100%;
+    background:#d8e4fd ;
+    color:#010613 ;
+}
+.accent{
+    font-weight: 900;
+    color:#eed311 ;
+}
+.about-me .accent,
+footer .accent{
+    text-shadow: 0 0 4px #010613;
+}
+.jurney .accent{
+    font-family: 'Exo 2', sans-serif;
+}
+.small-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+}
+.btn{
+    display: inline-block;
+    background: #eed311;
+    color: #010613;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.btn:hover,
+.btn:focus{
+    background: #d8e4fd;
+}
+.about-me .btn:hover,
+.about-me .btn:focus{
+    background-color: #010613;
+    color: #eed311;
+}
+
+footer{
+    color: #010613;
+    padding: 40px;
+    background: #d8e4fd;
+}
+footer p{
+    font-weight: 900;
+}
