@@ -71,6 +71,11 @@ footer .accent{
     margin-top: 25px;
     border-radius: 5px;
 }
+#story{
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+    font-weight: 900;
+}
 .btn:hover,
 .btn:focus{
     background: #d8e4fd;
@@ -80,6 +85,31 @@ footer .accent{
     background-color: #010613;
     color: #eed311;
 }
+input{
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    color:#d8e4fd;
+    background:  #15203b;
+    border: none;
+    border-radius: 5px;
+
+}
+.big-inp{
+    height: 40px;
+}
+#send{
+    border: none;
+}
+/* .form{
+    opacity: 0;
+    transition: opacity 2s, transform 2s;
+    transform: translateY(-100);
+}
+.form.show{
+    opacity: 1;
+    transform: translateY(0);
+} */
 
 footer{
     color: #010613;
